@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="ubuntu" id="0" name="CustomControllerTest" package="" tests="1" time="1.31" timestamp="2014-04-10T16:08:40">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner CustomControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-CustomControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher2545549585605430911.properties propsfile=/home/eddie/Downloads/GSDSim/junit4878068303346547108.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1708" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="CustomControllerTest" name="testAddSite" time="1.241">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openstreetmap.gui.jmapviewer.JMapViewer.getPosition(JMapViewer.java:388)
+	at CustomController.addSite(Unknown Source)
+	at CustomControllerTest.testAddSite(Unknown Source)
+</error>
+
+      </testcase>
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="ubuntu" id="1" name="MapControllerTest" package="" tests="1" time="0.582" timestamp="2014-04-10T16:20:45">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MapControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-MapControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher6354557773361034976.properties propsfile=/home/eddie/Downloads/GSDSim/junit5492986416127651467.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1720" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="MapControllerTest" name="testStepEstimates" time="0.443">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at MapController.&lt;init&gt;(Unknown Source)
+	at MapControllerTest.testStepEstimates(Unknown Source)
+</error>
+
+      </testcase>
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="2" name="MyUnitTest" package="" tests="1" time="0.072" timestamp="2014-04-10T13:45:45">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/ant-junit-sample/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/ant-junit-sample/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/ant-junit-sample/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/ant-junit-sample/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/ant-junit-sample/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/ant-junit-sample/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/ant-junit-sample/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/ant-junit-sample/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MyUnitTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/ant-junit-sample/reports/raw/TEST-MyUnitTest.xml crashfile=/home/eddie/Downloads/ant-junit-sample/junitvmwatcher2373319528638710474.properties propsfile=/home/eddie/Downloads/ant-junit-sample/junit8748504939414954701.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/ant-junit-sample/bin:/home/eddie/Downloads/ant-junit-sample/lib/JMapViewer.jar:/home/eddie/Downloads/ant-junit-sample/lib/gson-2.2.4.jar:/home/eddie/Downloads/ant-junit-sample/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/ant-junit-sample/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1445" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/ant-junit-sample" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/ant-junit-sample" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="MyUnitTest" name="testConcatenate" time="0.002" />
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="ubuntu" id="3" name="ProcessControllerTest" package="" tests="1" time="0.073" timestamp="2014-04-10T15:04:27">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ProcessControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-ProcessControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher1077605505231615139.properties propsfile=/home/eddie/Downloads/GSDSim/junit9093835012578480808.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1604" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="ProcessControllerTest" name="testStepEstimates" time="0.009">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ProcessController.&lt;init&gt;(Unknown Source)
+	at ProcessControllerTest.testStepEstimates(Unknown Source)
+</error>
+
+      </testcase>
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="4" name="ScenarioControllerTest" package="" tests="1" time="0.126" timestamp="2014-04-10T16:30:23">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ScenarioControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-ScenarioControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher310745237766514298.properties propsfile=/home/eddie/Downloads/GSDSim/junit9045561037896801259.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1730" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="ScenarioControllerTest" name="testLoadScenarios" time="0.017" />
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="5" name="SecondsPerDayControllerTest" package="" tests="1" time="0.103" timestamp="2014-04-10T16:30:26">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner SecondsPerDayControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-SecondsPerDayControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher4047411299610506548.properties propsfile=/home/eddie/Downloads/GSDSim/junit2959450817890785264.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1730" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="SecondsPerDayControllerTest" name="testLoadSecondsPerDay" time="0.002" />
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="6" name="StartupControllerTest" package="" tests="5" time="0.093" timestamp="2014-04-10T16:30:28">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner StartupControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-StartupControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher5118024541384610422.properties propsfile=/home/eddie/Downloads/GSDSim/junit8195951998076370725.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1730" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="StartupControllerTest" name="testSecondsPerDay" time="0.002" />
+
+      <testcase classname="StartupControllerTest" name="testPause" time="0.0" />
+
+      <testcase classname="StartupControllerTest" name="testDeveloperProductivity" time="0.0" />
+
+      <testcase classname="StartupControllerTest" name="testPlayerMoney" time="0.001" />
+
+      <testcase classname="StartupControllerTest" name="testDeveloperCost" time="0.0" />
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="ubuntu" id="7" name="TimeControllerTest" package="" tests="1" time="0.085" timestamp="2014-04-10T14:24:12">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TimeControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-TimeControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher6984291701895291247.properties propsfile=/home/eddie/Downloads/GSDSim/junit1607757341418014535.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1524" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.009">
+          <failure message="Exception in constructor: testPause (java.lang.NullPointerException&#xa;&#x9;at TimeController.&lt;init&gt;(Unknown Source)&#xa;&#x9;at TimeControllerTest.&lt;init&gt;(Unknown Source)&#xa;&#x9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;&#x9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)&#xa;&#x9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;&#x9;at java.lang.reflect.Constructor.newInstance(Constructor.java:526)&#xa;&#x9;at junit.framework.TestSuite.createTest(TestSuite.java:131)&#xa;&#x9;at junit.framework.TestSuite.addTestMethod(TestSuite.java:114)&#xa;&#x9;at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:75)&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:484)&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1052)&#xa;&#x9;at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:906)&#xa;)" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Exception in constructor: testPause (java.lang.NullPointerException
+	at TimeController.&lt;init&gt;(Unknown Source)
+	at TimeControllerTest.&lt;init&gt;(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+)
+</failure>
+
+      </testcase>
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="ubuntu" id="8" name="TimeControllerTest" package="controllers" tests="1" time="0.0" timestamp="2014-04-10T14:21:06">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/GSDSim/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/GSDSim/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/GSDSim/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/GSDSim/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/GSDSim/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/GSDSim/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/GSDSim/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner controllers.TimeControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/GSDSim/reports/raw/TEST-controllers.TimeControllerTest.xml crashfile=/home/eddie/Downloads/GSDSim/junitvmwatcher3200109659321109133.properties propsfile=/home/eddie/Downloads/GSDSim/junit7379275038369289615.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/GSDSim/bin:/home/eddie/Downloads/GSDSim/lib/JMapViewer.jar:/home/eddie/Downloads/GSDSim/lib/gson-2.2.4.jar:/home/eddie/Downloads/GSDSim/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/GSDSim/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1521" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/GSDSim" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <error message="controllers.TimeControllerTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: controllers.TimeControllerTest
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+</error>
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="ubuntu" id="9" name="StartupControllerTest" package="tests" tests="1" time="0.0" timestamp="2014-04-10T13:58:22">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="/home/eddie/Downloads/ant-junit-sample/dist" />
+
+          <property name="lib" value="/home/eddie/Downloads/ant-junit-sample/lib" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+
+          <property name="TODAY" value="April 10 2014" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="/usr/share/ant" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b00" />
+
+          <property name="ant.file.SampleJUnitTests" value="/home/eddie/Downloads/ant-junit-sample/build.xml" />
+
+          <property name="user.name" value="eddie" />
+
+          <property name="reports" value="/home/eddie/Downloads/ant-junit-sample/reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="/home/eddie/Downloads/ant-junit-sample/bin" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20140410" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="src" value="/home/eddie/Downloads/ant-junit-sample/src" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="/home/eddie/Downloads/ant-junit-sample/build.xml" />
+
+          <property name="os.version" value="3.5.0-17-generic" />
+
+          <property name="res" value="/home/eddie/Downloads/ant-junit-sample/res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.vm.version" value="24.45-b08" />
+
+          <property name="ant.library.dir" value="/usr/share/ant/lib" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="user.home" value="/home/eddie" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.StartupControllerTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/eddie/Downloads/ant-junit-sample/reports/raw/TEST-tests.StartupControllerTest.xml crashfile=/home/eddie/Downloads/ant-junit-sample/junitvmwatcher8991370872865367081.properties propsfile=/home/eddie/Downloads/ant-junit-sample/junit5933156852397158113.properties" />
+
+          <property name="java.class.path" value="/home/eddie/Downloads/ant-junit-sample/bin:/home/eddie/Downloads/ant-junit-sample/lib/JMapViewer.jar:/home/eddie/Downloads/ant-junit-sample/lib/gson-2.2.4.jar:/home/eddie/Downloads/ant-junit-sample/lib/hamcrest-core-1.3.jar:/home/eddie/Downloads/ant-junit-sample/lib/junit.jar:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+
+          <property name="jar_name" value="${yo}.jar" />
+
+          <property name="TSTAMP" value="1458" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="user.dir" value="/home/eddie/Downloads/ant-junit-sample" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="basedir" value="/home/eddie/Downloads/ant-junit-sample" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <error message="tests.StartupControllerTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: tests.StartupControllerTest
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+</error>
+
+      <system-out />
+
+      <system-err />
+
+  </testsuite>
+</testsuites>
